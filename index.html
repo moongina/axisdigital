@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/framework.css" rel="stylesheet">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/framework.js"></script>
+	<title>NISHINA Productions</title>
+</head>
+<body>
+	<div class="the-basic-row">
+		<div class="col-md-2 the-basic-column" id="the-left">
+			<div class="dropdown nav-btn-left">
+				<div><img src="images/overview-button-left.png"></div>
+				<div class="dropdown-content">
+					<div class="img-swap-btn" id="01">
+						<img src="images/overview-button-left-HOME.png">
+						<img src="images/overview-button-left-HOME-blur.png">
+					</div>
+					<div class="img-swap-btn" id="02">
+						<img src="images/overview-button-left-ABOUT.png">
+						<img src="images/overview-button-left-ABOUT-blur.png">
+					</div>
+					<div class="img-swap-btn" id="03">
+						<img src="images/overview-button-left-OT.png">
+						<img src="images/overview-button-left-OT-blur.png">
+					</div>
+					<div class="img-swap-btn" id="04">
+						<img src="images/overview-button-left-WORK.png">
+						<img src="images/overview-button-left-WORK-blur.png">
+					</div>
+					<div class="img-swap-btn" id="05">
+						<img src="images/overview-button-left-JU.png">
+						<img src="images/overview-button-left-JU-blur.png">
+					</div>
+					<div class="img-swap-btn" id="06">
+						<img src="images/overview-button-left-CONTACT.png">
+						<img src="images/overview-button-left-CONTACT-blur.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-8 the-basic-column" id="the-middle">
+			<div class="the-header"></div>
+
+			<div class="the-core" id="page01" style="display: block;">
+				<div class="page01-upper">
+					<div class="col-md-6 ball-field"></div>
+					<div class="col-md-3 ball-field"">
+						<div class="ball" id="02">
+							<div>About</div>
+							<img src="images/page01-ball-01-small.png" class="img-responsive">
+							<img src="images/page01-ball-01-large.png">
+						</div>
+					</div>
+					<div class="col-md-3 ball-field">
+						<div class="ball" id="06">
+							<div>Contact</div>
+							<img src="images/page01-ball-01-small.png" class="img-responsive">
+							<img src="images/page01-ball-01-large.png">
+						</div>
+					</div>
+				</div>
+				<div class="page01-middle">
+					<div><img src="images/page01-title.png" class="img-responsive"></div>	
+				</div>
+				<div class="page01-lower">
+					<div class="col-md-4 ball-field">
+						<div class="ball" id="03">
+							<div>Our Team</div>
+							<img src="images/page01-ball-01-small.png" class="img-responsive">
+							<img src="images/page01-ball-01-large.png">
+						</div>
+					</div>
+					<div class="col-md-4 ball-field">
+						<div class="ball" id="04">
+							<div>Works</div>
+							<img src="images/page01-ball-01-small.png" class="img-responsive">
+							<img src="images/page01-ball-01-large.png">
+						</div>
+					</div>
+					<div class="col-md-4 ball-field">
+						<div class="ball" id="05">
+							<div>Join US</div>
+							<img src="images/page01-ball-01-small.png" class="img-responsive">
+							<img src="images/page01-ball-01-large.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="the-core" id="page02" style="display: none;">
+				<div>
+					<img src="images/test-car-orange.png">
+					<p style="color: white;">Page 2</p>
+				</div>
+			</div>
+
+			<div class="the-core" id="page03" style="display: none;">
+				<div class="page03-upper"></div>
+				<div class="page03-middle">
+					<div class="row" id="page03-about-us">
+						<div id="prev"><img src="images/control-prev.png"></div>
+						<div class="page03-picture-frame">
+							<div class="page03-figure" id="ff" style="display: none">
+								<div class="page03-picture-small"></div>
+								<div class="page03-picture-large">
+									<div class="page03-the-large-picture">
+										<img>
+									</div>
+									<div class="page03-the-title">
+										<div><div></div><div></div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="next"><img src="images/control-next.png"></div>
+					</div>
+				</div>
+				<div class="page03-lower"></div>
+			</div>
+
+			<div class="the-core" id="page04" style="display: none;">
+				<div class="page04-upper">
+					<div class="col-md-1"></div>
+					<div class="col-md-10" id="tags">
+						<span class="page04-picture-tag active" id="all">全部案例</span>
+						<span class="page04-picture-tag-interval">|</span>
+						<span class="page04-picture-tag" id="plan">方案</span>
+						<span class="page04-picture-tag-interval">|</span>
+						<span class="page04-picture-tag" id="design">设计</span>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="page04-middle">
+					<div class="col-md-1 page04-middle-column" id="prev">
+						<div><img src="images/control-prev.png"></div>
+					</div>
+					<div class="col-md-10 page04-middle-column" id="page04-cases"></div>
+					<div class="col-md-1 page04-middle-column" id="next">
+						<div><img src="images/control-next.png"></div>
+					</div>
+				</div>
+				<div class="page04-lower"></div>
+			</div>
+
+			<div class="the-core" id="page05" style="display: none;">
+
+				<div class="page05-upper"></div>
+				<div class="page05-middle">
+					<div class="row" id="page05-join-us">
+						<div class="page05-demand" id="ff" style="display: none;">
+							<div class="page05-frame-01">
+								<div class="row">
+									test1<br>test2
+								</div>
+								<div class="row">
+									<div class="page05-btn"><img src="images/page05_+.png"></div>
+								</div>
+							</div>
+							<div class="page05-frame-02">
+								<div class="row" id="upper"></div>
+								<div class="row" id="middle"></div>
+								<div class="row" id="lower-1">
+									<img src="images/page05-recruit.png">
+								</div>
+								<div class="row" id="lower-2">
+									<div class="page05-btn"><img src="images/page05_x.png"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page05-lower"></div>
+
+			</div>
+			
+			<div class="the-core" id="page06" style="display: none;">
+				<div>
+					<img src="images/test-car-orange.png">
+					<p style="color: white;">Page 6</p>
+				</div>
+			</div>
+
+			<div class="the-footer"></div>
+		</div>
+
+		<div class="col-md-2 the-basic-column" id="the-right">
+			<div class="right-side-upper">
+				<svg class="nav-btn-right-upper" width="13" height="128">
+					<circle id="01" cx="6.5" cy="6.5" r="6.5" fill="orange" />
+					<circle id="02" cx="6.5" cy="29.5" r="6.5" fill="grey" />
+					<circle id="03" cx="6.5" cy="52.5" r="6.5" fill="grey" />
+					<circle id="04" cx="6.5" cy="75.5" r="6.5" fill="grey" />
+					<circle id="05" cx="6.5" cy="98.5" r="6.5" fill="grey" />
+					<circle id="06" cx="6.5" cy="121.5" r="6.5" fill="grey" />
+				</svg>	
+			</div>
+			<div class="right-side-lower">
+				<div class=".nav-btn-right-lower"><img src="images/overview-sound-off.png"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
