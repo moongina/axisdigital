@@ -115,6 +115,21 @@ html, body, .the-basic-row {
 
 
 
+/*Page02*/
+
+.page02-upper, .page02-lower {
+	height: 10%;
+}
+
+.page02-middle {
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
 /*Page03*/
 
 /*框架*/
@@ -348,5 +363,18 @@ div#page03-about-us div#next {
 }
 
 
+
+/*Page06*/
+
+.page06-upper, .page06-lower {
+	height: 10%;
+}
+
+.page06-middle {
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 
